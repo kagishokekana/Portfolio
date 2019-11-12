@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+        /* Add a gray background color and some padding to the footer */
+        
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="aboutMe.html">About Me</a></li>
+                    <li><a href="email.html">Contact Me</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>My Portfolio</h1>
+            <img src="Kagisho.jpg" class="img-responsive" alt="Image" style="width:30%">
+        </div>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+        <h3>Some of my Work</h3><br>
+        <div class="row">
+            <div class="col-sm-3">
+                <h2>Javascript</h2>
+                <p> JavaScript is most commonly used as a client side scripting language. This means that JavaScript code is written into an HTML page. When a user requests an HTML page with JavaScript in it, the script is sent to the browser and it's up
+                    to the browser to do something with it.</p>
+                <a href="javascript.html">
+                    <img src="javascript.png" class="img-responsive" style="width:100%" alt="Image" alt="Image">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <h2>MYSQL</h2>
+                <p>MySQL is a relational database management system based on SQL – Structured Query Language. The application is used for a wide range of purposes, including data warehousing, e-commerce, and logging applications. The most common use for
+                    mySQL however, is for the purpose of a web database.</p>
+                <a href="mysql.html">
+
+                    <img src="MySQL.jpg" class="img-responsive" style="width:100%" alt="Image" alt="Image">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <h2>wordpress</h2>
+                <a href="wordpress.html">
+                    <p>It is among the most widely used website creation tools around the world and also an equally powerful CMS. Uses of WordPress helps you to Develop a real estate and property listing web area. WordPress is a system that lets you create
+                        pages or posts without having to learn all that complicated HTML code.</p>
+                    <img src="wordpress.jpg" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <h2>Flutter</h2>
+                <a href="flutter.html">
+                    <p> Flutter is an open-source mobile application development framework created by Google. It is used to develop applications for Android and iOS.</p>
+                    <img src="flutter.jpeg" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+        </div>
+    </div><br>
+
+
+
+
+
+
+</body>
+
+</html>
